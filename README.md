@@ -13,6 +13,8 @@ This project is intended to:
 ## 🛠️ Tools & Technologies
 
 - **HDL**: Verilog
-- **Version Control**: Git
+- **Simulation**: [Icarus Verilog](http://iverilog.icarus.com/)
+- **Waveform Viewer**: [GTKWave](http://gtkwave.sourceforge.net/)
+- **Version Control**: Git and GitHub
 
 
