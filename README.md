@@ -1,4 +1,4 @@
-# RTL Design Practice
+# RTL Design Series
 
 This repository contains a collection of RTL (Register Transfer Level) design implementations created as part of my learning and practice in Digital Design using Verilog HDL.
 
