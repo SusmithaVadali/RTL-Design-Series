@@ -5,12 +5,18 @@ module full_adder_tb;
     wire sum,carry;
     full_adder uut(a,b,c,sum,carry);
     initial begin
-      $dumpfile("full_adder_tb.vcd")
+      $dumpfile("full_adder_tb.vcd");
       $dumpvars(0,full_adder_tb);
-      a= 1'b0; b=1'b0;
-      #20 a=1'b0; b=1'b1;
-      #20 a=1'b1; b=1'b0;
-      #20 a=1'b1; b=1'b1;
-      $display("Task Completed")
+          a=1'b0; b=1'b0; c=1'b0;
+      #20 a=1'b0; b=1'b0; c=1'b1;
+      #20 a=1'b0; b=1'b1; c=1'b0;
+      #20 a=1'b0; b=1'b1; c=1'b1;      
+      #20 a=1'b1; b=1'b0; c=1'b0;      
+      #20 a=1'b1; b=1'b0; c=1'b1;      
+      #20 a=1'b1; b=1'b1; c=1'b0;      
+      #20 a=1'b1; b=1'b1; c=1'b1;      
+      
+
+      $display("Task Completed");
     end
 endmodule
