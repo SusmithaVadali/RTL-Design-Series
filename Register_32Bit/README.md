@@ -30,13 +30,3 @@ A **32-bit Register** is a sequential circuit used to **store and hold 32-bit bi
 > D = Input data
 
 ---
-
-### 🧱 Block Diagram Description
-
-```text
-        +-------------------------+
- clk -->|                         |
- rst -->|      32-bit Register    |--> q[31:0]
-load -->|                         |
- d[31:0]-->                       |
-        +-------------------------+
