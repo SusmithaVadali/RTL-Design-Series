@@ -1,4 +1,4 @@
-## ➖ Full Subtractor – Theory and Truth Table
+##  Full Subtractor – Theory and Truth Table
 
 A **Full Subtractor** is a combinational logic circuit that performs subtraction of three binary bits:
 
@@ -12,14 +12,14 @@ It produces:
 
 ---
 
-### 🧠 Logic Expressions
+###  Logic Expressions
 
 - **Difference (D)** = A ⊕ B ⊕ Bin  
 - **Borrow-out (Bout)** = (¬A · B) + ((¬A ⊕ B) · Bin)
 
 ---
 
-### 🧾 Truth Table
+###  Truth Table
 
 | A | B | Bin | Diff | Bout |
 |---|---|-----|------|------|
@@ -34,7 +34,7 @@ It produces:
 
 ---
 
-### 🔧 Applications
+###  Applications
 
 - Used in digital subtractors
 - Basis for arithmetic operations in ALUs and CPUs
