@@ -1,4 +1,4 @@
-## ➕ Half Adder – Theory and Truth Table
+##  Half Adder – Theory and Truth Table
 
 A **Half Adder** is a combinational circuit that performs the addition of **two binary bits**:  
 - **Inputs**: `A`, `B`  
@@ -8,14 +8,14 @@ A **Half Adder** is a combinational circuit that performs the addition of **two 
 
 ---
 
-### 🧠 Logic Expressions
+###  Logic Expressions
 
 - **Sum (S)** = A ⊕ B  
 - **Carry (Cout)** = A · B
 
 ---
 
-### 🧾 Truth Table
+###  Truth Table
 
 | A | B | Sum | Cout |
 |---|---|-----|------|
@@ -26,7 +26,7 @@ A **Half Adder** is a combinational circuit that performs the addition of **two 
 
 ---
 
-### 🔧 Applications
+###  Applications
 
 - Used in constructing Full Adders
 - Fundamental building block of arithmetic logic circuits
