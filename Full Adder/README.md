@@ -1,4 +1,4 @@
-## ➕ Full Adder – Theory and Truth Table
+##  Full Adder – Theory and Truth Table
 
 A **Full Adder** is a combinational logic circuit that adds **three binary inputs**:  
 - Two significant bits: `A` and `B`  
@@ -10,14 +10,14 @@ It produces:
 
 ---
 
-### 🧠 Logic Expressions
+###  Logic Expressions
 
 - **Sum (S)** = A ⊕ B ⊕ Cin  
 - **Carry-out (Cout)** = (A · B) + (B · Cin) + (A · Cin)
 
 ---
 
-### 🧾 Truth Table
+###  Truth Table
 
 | A | B | Cin | Sum | Cout |
 |---|---|-----|-----|------|
@@ -32,7 +32,7 @@ It produces:
 
 ---
 
-### 🔧 Applications
+###  Applications
 
 - Used in binary addition in arithmetic logic units (ALUs)
 - Chained together to build multi-bit binary adders (like 4-bit or 8-bit adders)
