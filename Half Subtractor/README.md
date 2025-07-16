@@ -1,4 +1,4 @@
-## ➖ Half Subtractor – Theory and Truth Table
+##  Half Subtractor – Theory and Truth Table
 
 A **Half Subtractor** is a combinational circuit that performs the subtraction of **two binary bits**:  
 - **Inputs**: `A` (minuend), `B` (subtrahend)  
@@ -8,14 +8,14 @@ A **Half Subtractor** is a combinational circuit that performs the subtraction o
 
 ---
 
-### 🧠 Logic Expressions
+###  Logic Expressions
 
 - **Difference (D)** = A ⊕ B  
 - **Borrow (Bout)** = ~A · B
 
 ---
 
-### 🧾 Truth Table
+###  Truth Table
 
 | A | B | Diff | Bout |
 |---|---|------|------|
@@ -26,7 +26,7 @@ A **Half Subtractor** is a combinational circuit that performs the subtraction o
 
 ---
 
-### 🔧 Applications
+###  Applications
 
 - Used in basic binary subtraction
 - Foundation for building full subtractors
