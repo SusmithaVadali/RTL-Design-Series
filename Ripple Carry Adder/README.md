@@ -1,10 +1,10 @@
-## 🔢 4-Bit Ripple Carry Adder – Theory and Overview
+## 4-Bit Ripple Carry Adder – Theory and Overview
 
 A **4-bit Ripple Carry Adder** is a combinational circuit that adds two 4-bit binary numbers and an optional carry-in. It is constructed by **cascading four Full Adders**, where the **carry-out of each stage** is passed as **carry-in to the next stage**, causing the carry to "ripple" through the circuit.
 
 ---
 
-### 🧠 Logic Overview
+###  Logic Overview
 
 - **Inputs**:
   - `A[3:0]` – First 4-bit binary number  
@@ -17,7 +17,7 @@ A **4-bit Ripple Carry Adder** is a combinational circuit that adds two 4-bit bi
 
 ---
 
-### 🧾 Bitwise Operation Table
+###  Bitwise Operation Table
 
 | A3 A2 A1 A0 | B3 B2 B1 B0 | Cin | Sum3 Sum2 Sum1 Sum0 | Cout |
 |------------|------------|------|----------------------|------|
@@ -32,7 +32,7 @@ A **4-bit Ripple Carry Adder** is a combinational circuit that adds two 4-bit bi
 
 ---
 
-### 🔧 Applications
+###  Applications
 
 - Used in Arithmetic Logic Units (ALUs)
 - Basis for larger binary adders (8, 16, 32, or 64 bits)
