@@ -1,10 +1,10 @@
-## 🔍 Logic Gates – Theory and Truth Tables
+##  Logic Gates – Theory and Truth Tables
 
 This section provides a theoretical overview and truth tables for all fundamental logic gates.
 
 ---
 
-### 1️⃣ AND Gate
+### 1️. AND Gate
 
 - **Description**: Outputs `1` only if **both inputs are `1`**.
 - **Boolean Expression**: `Y = A · B`
@@ -18,7 +18,7 @@ This section provides a theoretical overview and truth tables for all fundamenta
 
 ---
 
-### 2️⃣ OR Gate
+### 2️. OR Gate
 
 - **Description**: Outputs `1` if **at least one input is `1`**.
 - **Boolean Expression**: `Y = A + B`
@@ -32,7 +32,7 @@ This section provides a theoretical overview and truth tables for all fundamenta
 
 ---
 
-### 3️⃣ NOT Gate (Inverter)
+### 3️. NOT Gate (Inverter)
 
 - **Description**: Outputs the **opposite** of the input.
 - **Boolean Expression**: `Y = ¬A`
@@ -44,7 +44,7 @@ This section provides a theoretical overview and truth tables for all fundamenta
 
 ---
 
-### 4️⃣ NAND Gate
+### 4️. NAND Gate
 
 - **Description**: Outputs `0` only if **both inputs are `1`**; inverse of AND.
 - **Boolean Expression**: `Y = ¬(A · B)`
@@ -58,7 +58,7 @@ This section provides a theoretical overview and truth tables for all fundamenta
 
 ---
 
-### 5️⃣ NOR Gate
+### 5️. NOR Gate
 
 - **Description**: Outputs `1` only if **both inputs are `0`**; inverse of OR.
 - **Boolean Expression**: `Y = ¬(A + B)`
@@ -72,7 +72,7 @@ This section provides a theoretical overview and truth tables for all fundamenta
 
 ---
 
-### 6️⃣ XOR Gate (Exclusive OR)
+### 6️. XOR Gate (Exclusive OR)
 
 - **Description**: Outputs `1` if the **inputs are different**.
 - **Boolean Expression**: `Y = A ⊕ B`
@@ -86,7 +86,7 @@ This section provides a theoretical overview and truth tables for all fundamenta
 
 ---
 
-### 7️⃣ XNOR Gate (Exclusive NOR)
+### 7️. XNOR Gate (Exclusive NOR)
 
 - **Description**: Outputs `1` if the **inputs are the same**; inverse of XOR.
 - **Boolean Expression**: `Y = ¬(A ⊕ B)`
